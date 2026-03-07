@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Bright Future School - Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Sansation:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/STYLE.CSS">
+       <link rel="shortcut icon" href="./IMAGES/KBG-LOGO.png" type="image/x-icon">
+</head>
+<body class="gallery-page">
+    <!-- Navigation Bar (same as faculty page) -->
+    <nav id="navbar" class="navbar navbar-expand-md navbar-dark custom-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="logo-container">
+                    <img id="nav-logo" src="./IMAGES/KBG-LOGO.png" height="90" alt="School Logo">
+                    <div class="logo-text">A Vision To Produce Quality Education</div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-2 text-center" id="navbar-content">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="gallery.html" id="academicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Academics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                            <li><a class="dropdown-item active" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="faculty.html">Faculty</a></li>
+                            <li><a href="admission.html" class="dropdown-item">Admissions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="announcemnet.html" class="nav-link">Announcement</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About-Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact-us.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Intro Section (similar to faculty intro) -->
+    <section class="gallery-intro">
+        <div class="container gallery-intro-container">
+            <div class="row align-items-center">
+                <!-- Text Column -->
+                <div class="col-md-6 text-white mb-4 mb-md-0">
+                    <h1 class="mb-4">School Gallery</h1>
+                    <p>Explore our vibrant school community through these captured moments of learning, growth, and achievement. From classroom activities to special events, our gallery showcases the dynamic environment at Kids Bright Future School.</p>
+                </div>
+                
+                <!-- Image Column -->
+                <div class="col-md-6 text-center">
+                    <img src="./IMAGES/WhatsApp Image 2026-03-06 at 12.05.32 PM.jpeg" 
+                         alt="School Gallery" class="gallery-hero-img img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Content -->
+    <section class="gallery-main">
+        <div class="container">
+            <h2 class="section-title">Moments That Matter</h2>
+            
+            <div class="gallery-controls text-center mb-5">
+                <button class="gallery-filter-btn active" data-filter="all">All</button>
+                <button class="gallery-filter-btn" data-filter="campus">Sports-Gala</button>
+                <button class="gallery-filter-btn" data-filter="events">Events</button>
+                <button class="gallery-filter-btn" data-filter="students">Students</button>
+                <button class="gallery-filter-btn" data-filter="activities">Activities</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Sports-gala -->
+                <div class="gallery-item" data-category="campus">
+                    <div class="category-tag">Sports Gala</div>
+                    <img src="./IMAGES/sports-gala.jpeg" 
+                         alt="Sports Gala" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Sports Gala (Red Team)</div>
+                        <div class="img-desc">Competing with respect, fairness, and sportsmanship.</div>
+                    </div>
+                </div>
+                
+             
+               
+                <div class="gallery-item" data-category="campus">
+                    <div class="category-tag">Sports-Gala</div>
+                    <img src="./IMAGES/sports-gala-1.jpeg" 
+                         alt="Sports-gala" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Sports Gala (Yellow Team)</div>
+                        <div class="img-desc">Shining bright with passion, teamwork, and unstoppable enthusiasm.</div>
+                    </div>
+                </div>  <div class="gallery-item" data-category="campus">
+                    <div class="category-tag">Sports-Gala</div>
+                    <img src="./IMAGES/sports-gala-3.jpeg" 
+                         alt="Sports-gala" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Sports-Gala(Blue Team)</div>
+                        <div class="img-desc">Where determination fuels every move and teamwork drives the victory</div>
+                    </div>
+                </div>
+                <!-- Students -->
+                <div class="gallery-item" data-category="students">
+                    <div class="category-tag">Sports-Gala</div>
+                    <img src="./IMAGES/sports-gala-2.jpeg" 
+                         alt="Classroom" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Sports-gala(Green Team)</div>
+                        <div class="img-desc">Where energy, focus, and teamwork create champions</div>
+                    </div>
+                </div>
+                 <div class="gallery-item" data-category="students">
+                    <div class="category-tag">Activities</div>
+                    <img src="./IMAGES/activity-2.jpeg" 
+                         alt="Science Class" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Talent Exploration</div>
+                        <div class="img-desc">Discovering talents beyond academics.</div>
+                    </div>
+                </div>
+                
+                <!-- Activities -->
+                <div class="gallery-item" data-category="activities">
+                    <div class="category-tag">Activities</div>
+                    <img src="./IMAGES/activity.jpeg" 
+                         alt="Sports Day" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Hologram and Robotic Project</div>
+                        <div class="img-desc">A display of science, creativity, and innovation.”</div>
+                    </div>
+                </div>
+                   <div class="gallery-item" data-category="activities">
+                    <div class="category-tag">Activities</div>
+                    <img src="./IMAGES/activity-1.jpeg" 
+                         alt="Art Class" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Acts of Hajj</div>
+                        <div class="img-desc">"Essential steps of the holy journey."</div>
+                    </div>
+                </div>
+               
+                   <!-- Events -->
+                <div class="gallery-item" data-category="events">
+                    <div class="category-tag">Events</div>
+                    <img src="./IMAGES/events.jpeg" 
+                         alt="Annual Day" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Tradition Day</div>
+                        <div class="img-desc">"Cultural performances by students."</div>
+                    </div>
+                </div>
+                  <div class="gallery-item" data-category="events">
+                    <div class="category-tag">Events</div>
+                    <img src="./IMAGES/events-3.jpeg" 
+                         alt="Graduation" class="gallery-img">
+                    <div class="img-info">
+                           <div class="img-title">Tradition Day</div>
+                        <div class="img-desc">"Cultural performances by students."</div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <div class="category-tag">Events</div>
+                    <img src="./IMAGES/events-1.jpeg" 
+                         alt="Graduation" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Independance Day</div>
+                        <div class="img-desc">"Celebrating our Independance with students."</div>
+                    </div>
+                </div>
+                
+                  <div class="gallery-item" data-category="events">
+                    <div class="category-tag">Events</div>
+                    <img src="./IMAGES/events-2.jpeg" 
+                         alt="Graduation" class="gallery-img">
+                    <div class="img-info">
+                        <div class="img-title">Eid Celebrations</div>
+                        <div class="img-desc">"Students cherishing the spirit of Eid."</div>
+                    </div>
+                </div>
+                 
+             
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img">
+            <div class="image-info"></div>
+        </div>
+    </div>
+    
+    <!-- Footer (same as faculty page) -->
+    <footer class="footer-bg pt-5 pb-3 text-white">
+        <div class="container">
+            <div class="row text-md-start text-center">
+                <!-- Column 1: Our Mission -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Our Mission</h5>
+                    <p class="small">
+                        To provide exceptional education that empowers students to become critical thinkers, 
+                        ethical leaders, and responsible global citizens.
+                    </p>
+                    <!-- <div class="social-icons mt-3 text-center text-md-start">
+                        <a href="#" class="footer-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="footer-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div> -->
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled small">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="admission.html" class="footer-link">Admissions</a></li>
+                        <li><a href="announcemnet.html" class="footer-link">Announcement</a></li>
+                        <li><a href="contact-us.html" class="footer-link">Contact-us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Contact Info -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Contact</h5>
+                    <p class="small mb-1">Kids Bright Future School</p>
+                    <p class="small mb-1">Near Nangay shah Masjid, Shahdoula road, Gujrat, Pakistan</p>
+                    <p class="small mb-1">Phone: <a href="tel:+92 314-4056356" class="footer-link">+92 314-4056356</a></p>
+                    <p class="small mb-3">Email: <a href="mailto:naturelover405@gmail.com" class="footer-link">naturelover405@gmail.com</a></p>
+                </div>
+
+               <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Campus Location</h5>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1079.2225535463324!2d74.08807703887558!3d32.57078799735706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f1b1370a50417%3A0xae3caea2cadce030!2sNangay%20Shah%20Masjid!5e0!3m2!1sen!2snl!4v1754023958035!5m2!1sen!2snl"
+                         width="100%" 
+                         height="150"
+                          style="border:0;"
+                          allowfullscreen=""
+                           loading="lazy" 
+                           referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <hr class="border-light mt-4 mb-4" />
+            <div class="text-center small">
+                &copy; 2026 Kids Bright Future School. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap & JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add animation classes to elements when page loads
+            const animateElements = () => {
+                const galleryIntro = document.querySelector('.gallery-intro-container');
+                const sectionTitle = document.querySelector('.section-title');
+                const galleryControls = document.querySelector('.gallery-controls');
+                const galleryItems = document.querySelectorAll('.gallery-item');
+                
+                if (galleryIntro) galleryIntro.classList.add('fade-in');
+                if (sectionTitle) sectionTitle.classList.add('slide-up');
+                if (galleryControls) galleryControls.classList.add('slide-up');
+                
+                // Animate gallery items with staggered delay
+                galleryItems.forEach((item, index) => {
+                    setTimeout(() => {
+                        item.classList.add('fade-in');
+                    }, 100 * index);
+                });
+            };
+            
+            // Initialize animations
+            animateElements();
+            
+            // Gallery filtering functionality
+            const filterButtons = document.querySelectorAll('.gallery-filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter items
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                            // Add animation when showing
+                            item.classList.add('fade-in');
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Lightbox functionality
+            const lightbox = document.querySelector('.lightbox');
+            const lightboxImg = document.querySelector('.lightbox-img');
+            const lightboxInfo = document.querySelector('.image-info');
+            const closeBtn = document.querySelector('.close-btn');
+            const galleryImages = document.querySelectorAll('.gallery-img');
+            
+            galleryImages.forEach(img => {
+                img.addEventListener('click', function() {
+                    const parentItem = this.closest('.gallery-item');
+                    const imgSrc = this.getAttribute('src');
+                    const imgTitle = parentItem.querySelector('.img-title').textContent;
+                    const imgDesc = parentItem.querySelector('.img-desc').textContent;
+                    
+                    lightboxImg.setAttribute('src', imgSrc);
+                    lightboxImg.setAttribute('alt', imgTitle);
+                    lightboxInfo.innerHTML = `
+                        <h3>${imgTitle}</h3>
+                        <p>${imgDesc}</p>
+                    `;
+                    
+                    lightbox.classList.add('show');
+                    document.body.style.overflow = 'hidden'; // Prevent scrolling when lightbox is open
+                });
+            });
+            
+            // Close lightbox
+            closeBtn.addEventListener('click', function() {
+                lightbox.classList.remove('show');
+                document.body.style.overflow = 'auto'; // Re-enable scrolling
+            });
+            
+            // Close lightbox when clicking outside the image
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    lightbox.classList.remove('show');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+            
+            // Navbar scroll effect
+            const navbar = document.getElementById('navbar');
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 100) {
+                    navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+                    navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+                } else {
+                    navbar.style.backgroundColor = ''; // Revert to original
+                    navbar.style.boxShadow = '';
+                }
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 70,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
