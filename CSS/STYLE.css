@@ -819,7 +819,10 @@
             height: 100%;
             
         }
-        
+        .fa-users {
+    font-size: 200px; /* adjust size */
+    color: #1e5a8a;      /* optional color */
+}
         .faculty-card img {
             width: 120px;
             height: 120px;
